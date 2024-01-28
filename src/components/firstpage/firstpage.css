@@ -1,0 +1,72 @@
+/* Resetting default margin and padding on all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the container of the first page */
+.firstpage {
+  justify-content: center;
+  align-items: center;
+  height: null; /* Allow height to be determined by content */
+  width: null; /* Allow width to be determined by content */
+}
+
+/* Styling for text within the container */
+.text {
+  text-align: right;
+  color: #FFFFFF; /* Text color */
+  font-size: 25px; /* Font size */
+  font-family: 'Arial', sans-serif; /* Font family */
+  font-weight: bold; /* Font weight */
+  font-style: italic; /* Font style */
+  text-shadow: 2px 2px 4px #999; /* Text shadow for a subtle effect */
+  position: absolute; /* Positioning */
+  bottom: 0;
+  left: 0;
+  width: 65%; /* Width of the text container */
+  padding: 90px; /* Padding for the text container */
+}
+
+/* Styling for the logo */
+.logo {
+  width: 50px; /* Set width for the logo */
+  position: absolute; /* Positioning */
+  top: 25px; /* Distance from the top */
+  left: 25px; /* Distance from the left */
+}
+
+/* Styling for the background */
+.background{
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  width: 202vh;
+  display: flex;
+}
+
+/* Styling for h1 elements */
+h1 {
+  margin: 20px 0; /* Margin for h1 elements */
+}
+
+/* Styling for buttons */
+button {
+  padding: 10px 20px; /* Padding for the button */
+  font-size: 16px; /* Font size of the button text */
+  background-color: #f21873; /* Background color of the button */
+  color: white; /* Text color of the button */
+  border: none; /* No border */
+  border-radius: 5px; /* Border radius for rounded corners */
+  cursor: pointer; /* Cursor style */
+  position: absolute; /* Positioning */
+  bottom: 50px;  /* Distance from the bottom */
+  left: 600px; /* Distance from the left */
+}
+
+/* Change background color on hover for the first page */
+.firstpage:hover {
+  background-color: #f21873; /* Change background color on hover */
+}

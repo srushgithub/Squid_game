@@ -1,0 +1,65 @@
+/* Container for the homepage content */
+.homepage {
+  width: 400px; /* Set the overall width of the login container */
+    height: 250px; /* Set the overall height of the login container */
+    background: #fff; /* Background color for the login container */
+    border: 1px solid #dddfe2; /* Border for the login container */
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%) , 0 8px 16px rgb(0 0 0 / 10%); /* Box shadow for a subtle elevation effect */
+    border-radius: 8px; /* Rounded corners for a softer appearance */
+    padding: 1rem; /* Padding inside the login container */
+    align-items: center; /* Align the content in the center vertically */
+    text-align: center; /* Align the content in the center horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+}
+
+/* Logo styling */
+.logo {
+  width: 50px; /* Adjust as needed */
+  position: absolute;
+  top: 50px; /* Position from the top */
+  left: 50px; /* Position from the left */
+}
+
+/* Additional buttons with similar styling */
+.homepage > .button1,
+.homepage > .playnow {
+  background: #f21873;
+  border: #f21873; /* This line appears to be missing a property (e.g., border-width) */
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+  align-items: flex-start; /* Align buttons to the top */
+  margin-top: 20px;
+  position: fixed; /* Fixed positioning for top-right alignment */
+  top: 10px; /* Adjust the top distance */
+  right: 10px; /* Adjust the right distance */
+}
+
+.button-container div {
+  width: 100px;
+  background: #f21873;
+  border: 1px solid #f21873;
+  color: #fff;
+  text-align: center;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+
+
+

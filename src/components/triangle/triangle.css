@@ -1,0 +1,21 @@
+.triangle {
+    width: 500px; /* Set the overall width of the login container */
+    height: 500px; /* Set the overall height of the login container */
+    background: #fff; /* Background color for the login container */
+    border: 1px solid #dddfe2; /* Border for the login container */
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%) , 0 8px 16px rgb(0 0 0 / 10%); /* Box shadow for a subtle elevation effect */
+    border-radius: 8px; /* Rounded corners for a softer appearance */
+    padding: 1rem; /* Padding inside the login container */
+    align-items: center; /* Align the content in the center vertically */
+    text-align: center; /* Align the content in the center horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+}
+.logo {
+    width: 50px; /* Adjust as needed */
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }

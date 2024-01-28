@@ -1,0 +1,22 @@
+/* Sets the display property to 'flex', making the container a flex container */
+.App {
+  display: flex;
+
+  /* Sets the width of the container to 100% of the viewport width */
+  width: 100vw;
+
+  /* Sets the height of the container to 100% of the viewport height */
+  height: 100vh;
+
+  /* Aligns the items along the main axis (horizontal center) */
+  justify-content: center;
+
+  /* Aligns the items along the cross axis (vertical center) */
+  align-items: center;
+
+  /* Sets the background color of the container to #f0f2f5 */
+  background: #f0f2f5;
+
+  /* Sets the font family of the text inside the container to Arial or sans-serif as a fallback */
+  font-family: Arial, sans-serif;
+}

@@ -1,0 +1,47 @@
+/* Styles for the registration container */
+.register {
+    width: 400px; /* Set the width of the container */
+    height: 430px; /* Set the height of the container */
+    background: #fff; /* Set the background color of the container */
+    border: 1px solid #dddfe2; /* Set the border of the container */
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%); /* Apply a box shadow for a subtle elevation effect */
+    border-radius: 8px; /* Apply border radius for rounded corners */
+    padding: 1rem; /* Add padding inside the container */
+    align-items: center; /* Center the content vertically */
+    text-align: center; /* Center the text horizontally */
+}
+
+/* Styles for the input fields within the registration container */
+.register > input {
+    border-radius: 8px; /* Apply border radius for rounded input corners */
+    border: 2px solid #dddfe2; /* Set the border of the input field */
+    outline: none; /* Remove the default outline */
+    color: #1d2129; /* Set the text color of the input field */
+    margin: 0.5rem 0; /* Add margin above and below the input field */
+    padding: 0.5rem 0.75rem; /* Set padding for the input field */
+    width: 92%; /* Set the width of the input field */
+    font-size: 1rem; /* Set the font size of the input field */
+}
+
+/* Styles for the registration button */
+.register > .button {
+    background: #f21873; /* Set the background color of the button */
+    border: 1px solid #f21873; /* Set the border of the button */
+    color: #fff; /* Set the text color of the button */
+    font-size: 1.25rem; /* Set the font size of the button text */
+    padding: 0.5rem; /* Set padding for the button */
+    margin: 0.5rem 0; /* Add margin above and below the button */
+    border-radius: 8px; /* Apply border radius for rounded corners */
+    outline: none; /* Remove the default outline */
+    cursor: pointer; /* Set the cursor to a pointer on hover */
+    width: 380px; /* Set the width of the button */
+    height: 20px; /* Set the height of the button */
+}
+
+/* Styles for the logo */
+.logo {
+    width: 50px; /* Set the width of the logo */
+    position: absolute; /* Set the positioning to absolute */
+    top: 25px; /* Set the distance from the top of the parent container */
+    left: 25px; /* Set the distance from the left of the parent container */
+}

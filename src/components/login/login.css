@@ -1,0 +1,43 @@
+.login{
+    width: 400px; /* Set the overall width of the login container */
+    height: 320px; /* Set the overall height of the login container */
+    background: #fff; /* Background color for the login container */
+    border: 1px solid #dddfe2; /* Border for the login container */
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%) , 0 8px 16px rgb(0 0 0 / 10%); /* Box shadow for a subtle elevation effect */
+    border-radius: 8px; /* Rounded corners for a softer appearance */
+    padding: 1rem; /* Padding inside the login container */
+    align-items: center; /* Align the content in the center vertically */
+    text-align: center; /* Align the content in the center horizontally */
+}
+
+.login > input{
+    border-radius: 8px; /* Rounded corners for input fields */
+    border: 2px solid #dddfe2; /* Border for input fields */
+    outline: none; /* Remove default focus outline */
+    color: #1d2129; /* Text color for input fields */
+    margin: 0.5rem 0; /* Margin around input fields for spacing */
+    padding: 0.5rem 0.75rem; /* Padding inside input fields */
+    width: 92%; /* Take up 92% of the parent width */
+    font-size: 1rem; /* Font size for input fields */
+}
+
+.login > .button{
+    background: #f21873; /* Background color for the button */
+    border: 1px solid #f21873; /* Border for the button */
+    color: #fff; /* Text color for the button */
+    font-size: 1.25rem; /* Font size for the button text */
+    padding: 0.5rem; /* Padding inside the button */
+    margin: 0.5rem 0; /* Margin around the button for spacing */
+    border-radius: 8px; /* Rounded corners for the button */
+    outline: none; /* Remove default focus outline */
+    cursor: pointer; /* Set cursor to pointer for interaction */
+    width: 380px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+}
+
+.logo {
+    width: 50px; /* Set the width of the logo */
+    position: absolute; /* Position the logo absolutely */
+    top: 25px; /* Set the distance from the top */
+    left: 25px; /* Set the distance from the left */
+}

@@ -1,0 +1,19 @@
+/* Logo styling */
+.logo {
+    width: 50px; /* Adjust as needed */
+    position: absolute;
+    top: 50px; /* Position from the top */
+    left: 50px; /* Position from the left */
+  }
+
+.button {
+    background: #f21873;
+  border: #f21873; /* This line appears to be missing a property (e.g., border-width) */
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
